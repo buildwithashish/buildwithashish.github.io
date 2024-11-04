@@ -1,35 +1,71 @@
-body {
-    font-family: 'IBM Plex Sans', sans-serif;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    background-color: #ffffff;
-    color: #000000;
+}
+
+.container {
+    background: #fff;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
     text-align: center;
-}
-
-h1 {
-    color: #0d9488;
-}
-
-h2 {
-    border-bottom: 2px solid #0d9488;
-    padding-bottom: 5px;
-}
-
-section {
     margin-bottom: 20px;
 }
 
-.job {
+h1 {
+    font-size: 2em;
     margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
 }
 
-footer {
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
     margin-top: 20px;
-    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.job, .project {
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
 }
