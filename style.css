@@ -1,38 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
     text-align: center;
-    padding: 20px;
 }
 
 h1 {
-    color: #333;
+    color: #0d9488;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #0d9488;
     padding-bottom: 5px;
 }
 
 section {
-    margin: 20px 0;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 footer {
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
 }
